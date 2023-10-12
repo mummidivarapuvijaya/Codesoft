@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'poppins',sans-serif;
+    font-size: 15px;
+}
+body{
+    background-color: rgb(241, 240, 236);
+}
+.container{
+    border: 0;
+    outline: 0;
+    margin: 10px;
+}
+.nav {
+    width: 100%;
+    height: 350px;
+    background-color:#052157;
+    border-radius: 10px;
+}
+.nav h3{
+    color: white;
+    font-size: 25px;
+    padding:20px;
+    padding-left: 20px;
+}
+.regi{
+    text-align: right;
+}
+.regi button{
+    padding: 10px 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    padding-right: 20px;
+    background-color:rgb(217, 227, 235) ;
+}
+.nav a{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    word-spacing: 5px;
+}
+
+.nav i{
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 2px;
+    
+}
+.nav h1{
+    font-size: 50px;
+    padding-left: 20px;
+    color: white;
+    margin-top: 5px;
+}
+.nav h2{
+    font-size: 30px;
+    color: white;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 0px;
+    margin-top: -20px;
+    padding-left: 200px;
+    width: 80%;
+    
+}
+.content p{
+    border: solid rgb(250, 250, 3) 3px ;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    background-color:rgb(52, 52, 235);
+}
+.content button{
+    width: 70px;
+    color: white;
+    background-color: blue;
+    border: solid rgb(250, 246, 3) 3px ;
+}
+.add p{
+    font-size: 20px;
+    color: black;
+    padding-left: 30px;
+    border: none;
+}
+.add h1 {
+     padding-left: 30px;
+     margin-top: 20px;
+     font-size: 35px;
+}
+.add1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 50px;
+    margin-top: 30px;
+    padding-left: 200px;
+    width: 75%;
+}
+.add img{
+    padding-left: 300px;
+    border-radius: 10px;
+}
+.add1 div{
+    background-color: rgb(217, 227, 235);
+    padding: 30px;
+    border-right: 10px;
+    transition: transform 0.5s;
+}
+.add1 p{
+    margin-top: -70px;
+    font-size: 15px;
+}
+.add1 p b{
+    font-size: 17px;
+}
+.traditional{
+    margin-top: 40px;
+}
+.traditional h1{
+    padding-left: 20px;
+    font-size: 30px;
+}
+.traditional p{
+    margin-top: 15px;
+    font-size: 25px;
+    padding-left: 20px;
+}
+.t1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(600px,1fr));
+    grid-gap:0;
+    margin-top: 30px;
+    padding: 0 0 0 90px;
+}
+.img1{
+    border-radius: 20px ; 
+}
+.img2{
+    
+    border-radius: 20px ;
+}
+.t2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    grid-gap: 0;
+    margin-top: 30px;
+    padding: 0 0 0 50px;
+}
+.img3{
+    
+    border-radius: 20px;
+}
+.img4{
+   
+    border-radius: 20px;
+}
+.img5{
+
+    border-radius: 20px;
+}
+.major{
+    margin-top: 50px;
+    padding-left: 30px;
+}
+.major h1{
+    font-size: 30px;
+}
+.m1{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 0;
+    margin-top: 50px;
+}
+.m1 img{
+    border-radius: 20px;
+}
+.m1 h3{
+    margin-top: 10px;
+    font-size: 20px;
+    padding-left: 25px;
+}
+.m2{
+    margin-top: 20px;
+  padding-left: 20px;
+}
+.m2 h1{
+    font-size: 30px;
+}
+.m2 p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.m3{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+    grid-gap: 0;
+    margin-top: 50px;
+}
+.m3 img{
+    border-radius: 20px;
+}
+.home{
+    margin-top: 20px;
+}
+.home h1{
+    font-size: 30px;
+    padding-left: 30px;
+}
+.ho1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 0;
+    margin-top: 50px;
+}
+.ho1 h3{
+    padding-left: 20px;
+    font-size:20px ;
+}
+.ho1 p{
+    padding-left: 20px;
+    font-size: 15px;
+}
+.ho1 div{
+    padding:20px;
+    border-right: 5px;
+    transition: transform 0.10s;
+}
+.ho1 img{
+    border-radius: 20px;
+}

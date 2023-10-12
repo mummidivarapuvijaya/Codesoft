@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'poppins',sans-serif;
+    font-size: 15px;
+}
+body{
+    background-color: rgb(241, 240, 236);
+}
+.container{
+    border: 0;
+    outline: 0;
+    margin: 10px;
+}
+.nav {
+    width: 100%;
+    height: 300px;
+    background-color:#052157;
+    border-radius: 10px;
+}
+.nav h3{
+    color: white;
+    font-size: 25px;
+    padding:20px;
+    padding-left: 20px;
+}
+.regi{
+    text-align: right;
+}
+.regi button{
+    padding: 10px 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    padding-right: 20px;
+    background-color:rgb(217, 227, 235) ;
+}
+.nav a{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    word-spacing: 5px;
+}
+
+.nav i{
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 2px;
+    
+}
+.nav h1{
+    font-size: 50px;
+    padding-left: 20px;
+    color: white;
+    margin-top: 15px;
+}
+.nav h2{
+    font-size: 30px;
+    color: white;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.cars{
+    margin-top: 30px;
+}
+.cars h1{
+    font-size: 30px;
+    padding-left: 20px;
+}
+.cars p{
+    font-size: 20px;
+    padding-left: 20px;
+}
+.ho1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 0;
+    margin-top: 50px;
+}
+.ho1 h3{
+    padding-left: 20px;
+    font-size:20px ;
+}
+.ho1 p{
+    padding-left: 20px;
+    font-size: 15px;
+}
+.ho1 div{
+    padding:20px;
+    border-right: 5px;
+    transition: transform 0.10s;
+}
+.ho1 img{
+    border-radius: 20px;
+}
+div p{
+    font-size: 10px;
+}
+footer {
+    margin-top: 30px;
+    width:100%;
+    height: 200px;
+    background: #052157;
+    border-radius: 20px;
+    align-items: center;
+}
+.footer1 h1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer1 h3{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer1 button{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+}

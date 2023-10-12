@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'poppins',sans-serif;
+    font-size: 15px;
+}
+body{
+    background-color: rgb(241, 240, 236);
+}
+.container{
+    border: 0;
+    outline: 0;
+    margin: 10px;
+}
+.nav {
+    width: 100%;
+    height: 350px;
+    background-color:#052157;
+    border-radius: 10px;
+}
+.nav h3{
+    color: white;
+    font-size: 25px;
+    padding:20px;
+    padding-left: 20px;
+}
+.regi{
+    text-align: right;
+}
+.regi button{
+    padding: 10px 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    padding-right: 20px;
+    background-color:rgb(217, 227, 235) ;
+}
+.nav a{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    word-spacing: 5px;
+}
+
+.nav i{
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 2px;
+    
+}
+.nav h1{
+    font-size: 50px;
+    padding-left: 20px;
+    color: white;
+    margin-top: 5px;
+}
+.nav h2{
+    font-size: 30px;
+    color: white;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.bookings{
+    padding: 30px;
+}
+.bookings h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.b1{
+        margin: 20px 50px;
+        width: 80%;
+        height: 300px;
+        box-shadow:  5px 5px 15px rgba(31, 11, 148, 0.1),15px 15px 25px rgba(219, 2, 111, 0.2);
+        align-items: center;
+        justify-content: center;
+        margin-left: 150px;
+        background: white;
+        border-radius: 20px;
+}
+.b1 img{
+    margin-top: 8px;
+    padding: 30px;
+    border-radius: 20px;
+}
+.b1 h1{
+    padding-left: 50%;
+    margin-top: -300px;
+}
+.b1 p{
+    padding-left: 50%;
+}
+.b1 button{
+    float:right;
+}
+#b2{
+    border-radius: 20px;
+    padding:15px;
+    background-color: blue;
+    color: white;
+}
+.b3{
+    margin-top: 270px;
+    padding: 30px;
+}
+.b3 h1{
+    font-size: 20px;
+}
+footer {
+    margin-top: 30px;
+    width:100%;
+    height: 200px;
+    background: #052157;
+    border-radius: 20px;
+    align-items: center;
+}
+.footer1 h1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer1 h3{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer1 button{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+}

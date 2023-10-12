@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>log on</title>
+        <link rel="stylesheet" type="text/css" href="travels1.css">
+    </head>
+    <body>
+        <div class="main">
+            <form name="myform" method="post" onsubmit="return validate()">
+                <h1> LOG IN</h1>
+                <br>
+                <div class="data">
+               UserName:   <input type="text/css" name="username" placeholder="enter your username"  id="username"   ><br>
+               Password:   <input type="text/css" name="password" placeholder="enter your password" id="password"  ><br><br>
+                         <input type="button" value="Log in" id="submit" onclick="validate()"><br>
+                  <a href="registration2.html"> Create Account</a>
+                  <a href="registration1.html">forget password</a>
+                </div>
+            </form>
+        </div>
+        <script>
+          var attempt = 3; // Variable to count number of attempts.
+// Below function Executes on click of login button.
+function validate(){
+var username = document.getElementById("username").value;
+var password = document.getElementById("password").value;
+if ( username == null && password == " "){
+alert ("Login successfully");
+window.location = "travelling.html"; // Redirecting to other page.
+return false;
+}
+else{
+attempt --;// Decrementing by one.
+alert("You have left "+attempt+" attempt;");
+// Disabling fields after 3 attempts.
+if( attempt == 0){
+document.getElementById("username").disabled = true;
+document.getElementById("password").disabled = true;
+document.getElementById("submit").disabled = true;
+return false;
+}
+}
+}
+        </script>
+    </body>
+</html>
